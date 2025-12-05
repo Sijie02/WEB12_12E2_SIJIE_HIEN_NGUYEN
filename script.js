@@ -34,3 +34,10 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+function openDish() {
+  document.getElementById("dishModal").style.display = "block";
+}
+
+function closeDish() {
+  document.getElementById("dishModal").style.display = "none";
+}
